@@ -9,6 +9,6 @@ export enum RouteNames {
   storybook = "Storybook",
   favorite = "Favorite",
   favoriteStack = "favoriteStack",
-  calendar = "Calendar",
-  calendarStack = "CalendarStack",
+  items = "items",
+  itemsStack = "ItemsStack",
 }

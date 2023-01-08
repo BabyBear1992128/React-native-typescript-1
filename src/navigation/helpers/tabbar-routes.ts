@@ -8,6 +8,7 @@ import { RouteNames } from "../route-names";
 import HomeStack from "../stacks/home";
 import ProfileStack from "../stacks/profile";
 import FavoriteStack from "../stacks/favorite";
+import ItemsStack from "../stacks/items";
 import { BottomTabParamList } from "../types";
 
 export const BottomTabBarRoutes: Array<
@@ -30,9 +31,9 @@ export const BottomTabBarRoutes: Array<
     component: FavoriteStack,
   },
   {
-    options: BottomTabBarOptionByRouteName[RouteNames.calendarStack],
-    name: RouteNames.calendarStack,
-    component: ProfileStack,
+    options: BottomTabBarOptionByRouteName[RouteNames.itemsStack],
+    name: RouteNames.itemsStack,
+    component: ItemsStack,
   },
   {
     options: BottomTabBarOptionByRouteName[RouteNames.profileStack],

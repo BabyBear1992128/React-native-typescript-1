@@ -57,7 +57,7 @@ const style = StyleSheet.create({
   },
   title: {
     fontSize: 24,
-    color: "black",
+    color: "#2f394a",
     textAlign: "center",
     fontWeight: 'bold',
     marginTop: 10,
@@ -66,7 +66,7 @@ const style = StyleSheet.create({
     marginLeft: 20,
     fontSize: 15,
     fontWeight: 'bold',
-    color: 'black',
+    color: '#2f394a',
   },
   sub_item: {
     flexDirection: 'row',
